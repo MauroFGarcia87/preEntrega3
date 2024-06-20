@@ -1,0 +1,124 @@
+/* bg-colors */
+img {
+  width: 100%;
+}
+
+.carrusel {
+  height: 300px;
+  object-fit: cover;
+}
+
+.containerLogo {
+  max-width: 150px;
+  max-height: auto;
+  border: 1px solid antiquewhite;
+  border-radius: 25%;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #68cdf5 !important;
+}
+
+.bg-light {
+  background-color: rgb(252, 145, 5) !important;
+}
+
+li {
+  list-style: none;
+}
+
+a h3 {
+  text-decoration: none;
+}
+
+.bg-violeta {
+  background-color: #a37bb7;
+}
+.bg-lila {
+  background-color: #f288b6;
+}
+.bg-verde {
+  background-color: #47b693;
+}
+.bg-amarillo {
+  background-color: #fff213;
+}
+.bg-celeste {
+  background-color: #69d1fa;
+}
+
+.fondoCarrusel {
+  background-color: #a37bb7;
+}
+
+.containerMarca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.fondoPorductosDesc {
+  background-color: #69d1fa;
+}
+
+.fondoCategoria {
+  background-color: #fff213;
+}
+
+.fondoBioleta {
+  background-color: #f288b6;
+}
+
+.fondoVerde {
+  background-color: #49af8f;
+}
+
+.cardImg {
+  min-height: auto;
+  width: 250px;
+  object-fit: cover;
+}
+
+.img1 {
+  object-fit: cover;
+}
+
+.productos-destacados {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+
+.h2FondoAmarillo {
+  background-color: #fff213;
+  color: #f288b6;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
