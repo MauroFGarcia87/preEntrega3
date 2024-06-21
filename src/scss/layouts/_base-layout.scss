@@ -126,6 +126,12 @@ h2 {
   transform: scale(1.1);
 }
 
+.subtitulos {
+ @include miFonts();
+  color: #43ae8b;
+  font-size: 40px;
+}
+
 /* Animacion de girar */
 
 .cardPadre {

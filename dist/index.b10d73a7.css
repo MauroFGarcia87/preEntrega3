@@ -138,6 +138,14 @@ h2 {
   transform: scale(1.1);
 }
 
+.subtitulos {
+  color: #43ae8b;
+  font-family: Gochi Hand, cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .cardPadre {
   display: flex;
 }
