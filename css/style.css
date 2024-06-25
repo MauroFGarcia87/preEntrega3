@@ -1,0 +1,208 @@
+/* bg-colors */
+img {
+  width: 100%;
+}
+
+.carrusel {
+  height: 300px;
+  object-fit: cover;
+}
+
+.containerLogo {
+  max-width: 150px;
+  max-height: auto;
+  border: 1px solid antiquewhite;
+  border-radius: 25%;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-light {
+  background-color: rgb(252, 145, 5) !important;
+}
+
+li {
+  list-style: none;
+}
+
+a h3 {
+  text-decoration: none;
+}
+
+.bg-violeta {
+  background-color: #a37bb7;
+}
+.bg-lila {
+  background-color: #f288b6;
+}
+.bg-verde {
+  background-color: #47b693;
+}
+.bg-amarillo {
+  background-color: #fff213;
+}
+.bg-celeste {
+  background-color: #69d1fa;
+}
+
+.containerMarca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.cardImg {
+  min-height: auto;
+  width: 250px;
+  object-fit: cover;
+}
+
+.img1 {
+  object-fit: cover;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  color: blue;
+  margin: 0px 15px;
+}
+
+.subtitulos {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #43ae8b;
+  font-size: 40px;
+}
+
+.cardMio {
+  transition: all 0.3s;
+}
+
+.cardMio:hover {
+  transform: scale(1.1);
+}
+
+/* Animacion de girar */
+.cardPadre {
+  display: flex;
+}
+
+.cardGira {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.cardGira div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  backface-visibility: hidden;
+  transition: 1s;
+}
+
+.cardGira .front {
+  background-color: #f288b6;
+  transform: perspective(500px) rotateY(0deg);
+  align-items: center;
+  justify-content: center;
+}
+
+.cardGira .back {
+  background: #69d1fa;
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.cardGira:hover .front {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.cardGira:hover .back {
+  transform: perspective(500px) rotateY(360deg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #68cdf5 !important;
+}
+
+.productos-destacados {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+.productos-biblioteca {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+.productos-perchero {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #f288b6;
+}
+.productos-juguetes {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+.productos-organizador {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+.productos-cocina {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+.productos-mueble {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 40px;
+  color: #fff213;
+}
+
+/*# sourceMappingURL=style.css.map */

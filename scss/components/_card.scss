@@ -1,0 +1,39 @@
+
+
+.productos {
+    &-destacados {
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+    &-biblioteca{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+    &-perchero{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-lila;
+    }
+    &-juguetes{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+    &-organizador{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+    &-cocina{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+    &-mueble{
+      @include miFonts();
+      font-size: 40px;
+      color: $bg-amarillo;
+    }
+  }
